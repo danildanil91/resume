@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, course, css, tags">
+    <meta name="description" content="Это базовый курс по HTML">
+    <title>Isakov</title>
+
+</head>
+<body>
+    <img src="photo_2023-02-02 00.49.09.jpeg" width="200px" alt="">
+    <hr color="black">
+    
+
+    <h1><strong><em>Исаков Данил Владимирович</em></strong></h1>
+
+    <p><strong>Дата рождения:</strong> <em>7 октября 1993 года в г.Ташкент.</em> </p>
+
+    <p><strong>Место работы:</strong> <em>ООО "Uzbekistan Airports Handling"</em></p>
+
+    <p><strong>Мобильный телефон:</strong><em>+998909846426</em></p>
+
+    <p><strong>Семейное положение:</strong> <em>Женат</em></p>
+
+    <h2>Мое хобби</h2>
+    <ol>
+        <li>Футбол</li>
+        <li>
+            Программирование
+            <ul>
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>С++</li>
+            </ul>
+        </li>
+        <li>UFC</li>
+        <li>
+            Сериалы
+        </li>
+    </ol>
+    <h2>Опыт работы</h2>
+    <table>    
+        <!-- Самый важный тег для создания таблицы — это <table>. С него всё начинается. Им всё заканчивается. Встречая этот тег в разметке, браузер понимает, что дальше будет таблица. -->
+        <thead>
+            <tr> 
+                <!-- Любая таблица в первую очередь состоит из строк. Чтобы в таблице появились строки, используйте парный тег <tr>. Сколько нужно строк — столько раз нужно написать <tr> внутри <table>. -->
+                <!-- «tr» расшифровывается как «table row» и переводится «ряд таблицы». -->
+                <th>Название</th>
+                <!-- К ячейкам, обёрнутым тегом <th>, применяются дефолтные стили: текст становится жирным и выравнивается по центру ячейки. Это помогает внешне отделить заголовки от остальных данных таблицы. -->
+                <!-- Специально для заголовков ячеек или строк есть тег <th>. Обернём в этот парный тег заголовки: -->
+                <!-- «th» расшифровывается как «table header» и переводится «заголовок таблицы». -->
+                <th>Должность</th>
+                <th>Год</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>АО "Uzbekistan Airways"</td>
+                <!-- Все теги до этого только создавали структуру, но данных мы пока никуда не добавляли. Чтобы создать ячейку под данные, нужен парный тег <td>. Пишем столько <td> внутри <tr>, сколько нужно ячеек таблицы. -->
+                <!-- «td» расшифровывается как «table data» и переводится «данные таблицы». -->
+                <td>Инженер</td>
+                <td>2013-2021</td>
+            </tr>
+            <tr>
+                <td>ООО "Uzbekistan Airports Handling"</td>
+                <td>Специалист по закупкам</td>
+                <td>2021-2023</td>
+            </tr>
+            <tr>
+                <td>"Microsoft Corporation"</td>
+                <td>Веб-программист</td>
+                <td>2023</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h4>Список социальных сетей</h4>
+
+    <a href="https://t.me/+MudQsy2gMds3MmVi">Telegram</a>
+    <a href="https://instagram.com/danil_isakov93?igshid=YmMyMTA2M2Y=">Instagram</a>
+
+    <h3><em>Связаться со мной</em></h3>
+
+    <form action="/">
+        <div>
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="введите имя">
+        </div>
+
+        <div>
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" placeholder="введите email">
+        </div>
+
+        <div>
+        <label for="message">Сообщение</label>
+        <br>
+        <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
+        <button type="submit">Отправить!</button>
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>
